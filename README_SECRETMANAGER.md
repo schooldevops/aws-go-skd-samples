@@ -558,3 +558,8 @@ func deleteSecret(smgr *secretsmanager.SecretsManager, secretId string, optional
 지금까지 SecretManager 을 관리하는 SDK 를 사용하는 방법을 살펴 보았다.
 
 SecretManager 를 위해서 AWS Console 에 접근하여, 키/값을 추가할 수 있다. 그러나 다양한 프로젝트가 운영되는 환경이라면 위 코드를 활용하여 각 프로젝트별 secret 을 공통관리 할 수 있는 방향으로 개발을 진행할 수 있을 것이다. 
+
+참고:
+
+- aws sdk library: https://aws.github.io/aws-sdk-go-v2/docs/code-examples/
+  
