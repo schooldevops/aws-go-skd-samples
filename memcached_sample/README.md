@@ -66,6 +66,16 @@ func main() {
   - 키에 대해서 값을 조회한다. 
   - item으로 반환되며, (키, 값, 플래그, 유효시간) 을 가지고 있다. 
 
+## 테스트
+
+```py
+$ go run main.go
+
+Hello Greeting Key:  greeting
+Hello Greeting Value:  Hello World
+Hello Greeting Flags:  0
+Hello Greeting Expiration:  0
+```
 ## 관련 라이브러리 
 
 - https://pkg.go.dev/github.com/bradfitz/gomemcache/memcache
